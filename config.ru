@@ -1,2 +1,2 @@
-require './todo'
+require './todo_app'
 run Sinatra::Application
