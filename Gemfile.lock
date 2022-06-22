@@ -31,6 +31,7 @@ PLATFORMS
 DEPENDENCIES
   erubis
   puma
+  rack (~> 1.5)
   sinatra (~> 1.4.7)
   sinatra-contrib
 
