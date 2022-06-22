@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "2.6.3"
+ruby "3.1.2"
 
 group :production do
   gem "puma"
