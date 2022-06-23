@@ -1,7 +1,7 @@
 <ul id="lists">
-  <% sort_lists(@lists) do |list, id| %>
+  <% sort_lists(@lists) do |list| %>
       <li class="<%= list_class(list) %>">
-        <a href="/lists/<%= id %>">
+        <a href="/lists/<%= list[:id] %>">
           <h2><%= list[:name] %></h2>
           <p><%= display_todo_counter(list) %></p>
         </a>

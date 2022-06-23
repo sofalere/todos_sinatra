@@ -6,6 +6,7 @@ group :production do
   gem "puma"
 end
 
+gem "webrick"
 gem "sinatra", "~>1.4.7"
 gem "sinatra-contrib"
 gem "erubis"
